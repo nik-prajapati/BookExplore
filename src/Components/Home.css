@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(222, 196, 163);
+}
+.header{
+    padding:20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.top-books{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    /* row-gap: 2em; */
+}

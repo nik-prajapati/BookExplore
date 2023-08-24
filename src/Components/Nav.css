@@ -1,0 +1,17 @@
+.navbar{
+    font-family: 'Audiowide', sans-serif;
+    background-color: rgb(140, 63, 240);
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(8, 1, 16);
+    font-family: 'Audiowide', cursive;
+    position: relative;
+    right: 2%;
+}

@@ -1,0 +1,48 @@
+.box{
+    position: relative;
+    margin: 10px;
+    height: 300px;
+}
+.image{
+    height: 300px;
+}
+.box img{
+    height: 100%;
+    object-fit: contain;
+}
+.details{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: white;
+}
+
+.box:hover{
+
+    transition:1s ;
+    transform: scale(0.95);
+    margin: 10px;
+}
+.box:hover .details{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    opacity: 0.8;
+    display: block;
+    font-weight: 500;
+    color: white;
+    transition:1s ;
+
+    transition:ease-in-out;
+    /* transform: scale(1.1); */
+    
+}
